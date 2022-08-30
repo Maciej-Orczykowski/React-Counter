@@ -78,7 +78,7 @@ function App() {
         <p class="mainText">Come up with your number!</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Maciej-Orczykowski?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
         >
