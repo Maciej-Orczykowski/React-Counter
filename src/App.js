@@ -55,36 +55,28 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div class="buttonsContainer">
-          <button class="button" onClick={addOne}>
-            +1
-          </button>
-          <button class="button" onClick={addTwo}>
-            +2
-          </button>
-          <button class="button" onClick={addFive}>
-            +5
-          </button>
-          <button class="button" onClick={addRandom}>
-            +Random
-          </button>
-          <button class="button" onClick={clear}>
-            Clear
-          </button>
-        </div>
+      <div className="H1">
+        <div class="mainText">Come up with your number!</div>
         <div class="meter">{meterValue}</div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p class="mainText">Come up with your number!</p>
-        <a
-          className="App-link"
-          href="https://github.com/Maciej-Orczykowski?tab=repositories"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click to see more
-        </a>
-      </header>
+      </div>
+      <img src={logo} className="App-logo H1" alt="logo" />
+      <div class="buttonsContainer">
+        <button class="button" onClick={addOne}>
+          +1
+        </button>
+        <button class="button" onClick={addTwo}>
+          +2
+        </button>
+        <button class="button" onClick={addFive}>
+          +5
+        </button>
+        <button class="button" onClick={addRandom}>
+          +Random
+        </button>
+        <button class="button" onClick={clear}>
+          Clear
+        </button>
+      </div>
     </div>
   );
 }
